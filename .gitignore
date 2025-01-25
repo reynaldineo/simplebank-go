@@ -1,0 +1,42 @@
+# .env files for storing environment variables
+.env
+
+# Go binary files
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Go build output
+bin/
+build/
+
+# Go test binary
+*.test
+
+# Dependency directories
+vendor/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Go workspace files
+.go_workspace
+.go_projects
+
+# Logs
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Coverage files
+*.out
+
+# Temporary files
+*.tmp
