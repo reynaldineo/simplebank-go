@@ -19,5 +19,7 @@ migratedown:
 migratedown1:
 	go run db/main.go -action down1
 
+sqlc:
+	sqlc generate
 
-.PHONY: postgres createdb dropdb migrateup migrateup1 migratedown migratedown1
+.PHONY: postgres createdb dropdb migrateup migrateup1 migratedown migratedown1 sqlc
